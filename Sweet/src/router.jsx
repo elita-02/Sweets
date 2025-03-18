@@ -5,7 +5,7 @@ import Contacts from "./pages/Contacts";
 import Jobs from "./pages/Jobs";
 import Reviews from "./pages/Reviews";
 import Profile from "./pages/Profile";
-import Layout from "./Layout";
+import Layout from "./Components/Layout/Layout";
 import Catalog from "./pages/Catalog";
 import Reteil from "./pages/Reteil";
  
