@@ -1,0 +1,34 @@
+.carousel {
+    width: 1200px; /* Каруселдин туурасы */
+    height: 300px; /* Каруселдин бийиктиги */
+    
+    .carousel-item {
+      position: relative;
+      width: 100%; /* Каруселдин туурасы толугу менен сүрөттө болушу керек */
+      height: 100%; /* Каруселдин бийиктиги толугу менен сүрөттө болушу керек */
+    }
+  
+    .carousel-item img {
+      width: 100%; /* Сүрөт туурасы толугу менен контейнерге туура келет */
+      height: 100%; /* Сүрөт бийиктиги толугу менен контейнерге туура келет */
+      object-fit: cover; /* Сүрөттү каруселдин өлчөмүнө тууралоо */
+    }
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Карточканы караңгылатуу */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px; /* Жакшыртылган көрүнүш үчүн */
+    text-align: center;
+  }
+  
+  .carousel-caption h3,
+  .carousel-caption p {
+    margin: 0;
+  }
+  
