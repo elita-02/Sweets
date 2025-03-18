@@ -1,6 +1,4 @@
 import { createBrowserRouter } from "react-router-dom";  
-import Wholesale from "./pages/Wholesale";
-// import Reteil from "./pages/Reteil";
 import Contacts from "./pages/Contacts";
 import Jobs from "./pages/Jobs";
 import Reviews from "./pages/Reviews";
@@ -8,6 +6,7 @@ import Profile from "./pages/Profile";
 import Layout from "./Components/Layout/Layout";
 import Catalog from "./pages/Catalog";
 import Reteil from "./pages/Reteil";
+import Wholesale from "./pages/Wholesale";
  
  
  export const myRouter = createBrowserRouter([
@@ -15,10 +14,11 @@ import Reteil from "./pages/Reteil";
     element: <Layout/>,
     children:[
 
-       {
-           path: "/",
-           element: <Wholesale/>
-       },
+        {
+            path: "/",
+            element: <Wholesale/>
+         },
+         
        {
            path: "reteil",
            element: <Reteil/>
