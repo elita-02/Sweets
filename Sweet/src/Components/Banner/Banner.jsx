@@ -7,8 +7,8 @@ import "./Banner.scss";
 
 function Banner() {
   return (
-    <div className="banner container">
-      <div className="carousel">
+    <div className="banner containeк">
+      <div className="carousel ">
         <Carousel>
           <Carousel.Item>
             <img className="d-block w-100" src={one} alt="First slide" />

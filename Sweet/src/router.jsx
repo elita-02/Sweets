@@ -7,6 +7,7 @@ import Layout from "./Components/Layout/Layout";
 import Catalog from "./pages/Catalog";
 import Reteil from "./pages/Reteil";
 import Wholesale from "./pages/Wholesale";
+import Emmail from "./pages/Emmail";
  
  
  export const myRouter = createBrowserRouter([
@@ -15,7 +16,11 @@ import Wholesale from "./pages/Wholesale";
     children:[
 
         {
-            path: "/",
+            path: "catalog",
+            element: <Catalog/>
+        },
+        {
+            path: "wholesale",
             element: <Wholesale/>
          },
          
@@ -40,8 +45,8 @@ import Wholesale from "./pages/Wholesale";
            element: <Profile/>
        },
        {
-           path: "catalog",
-           element: <Catalog/>
+           path: "/emmail",
+           element: <Emmail/>
        },
     
     ]

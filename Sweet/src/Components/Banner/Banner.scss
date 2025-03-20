@@ -1,34 +1,45 @@
-.carousel {
-    width: 1200px; /* Каруселдин туурасы */
-    height: 300px; /* Каруселдин бийиктиги */
-    
+
+.banner {
+  width: 100%;
+  height: 300px; 
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 0; 
+
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+
+  .carousel {
+    width: 100%;
+    height: 100%; 
     .carousel-item {
       position: relative;
-      width: 100%; /* Каруселдин туурасы толугу менен сүрөттө болушу керек */
-      height: 100%; /* Каруселдин бийиктиги толугу менен сүрөттө болушу керек */
+      width: 100%;
+      height: 100%; 
     }
-  
+
     .carousel-item img {
-      width: 100%; /* Сүрөт туурасы толугу менен контейнерге туура келет */
-      height: 100%; /* Сүрөт бийиктиги толугу менен контейнерге туура келет */
-      object-fit: cover; /* Сүрөттү каруселдин өлчөмүнө тууралоо */
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
     }
   }
-  
+
   .carousel-caption {
     position: absolute;
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.5); /* Карточканы караңгылатуу */
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 10px 20px;
-    border-radius: 5px; /* Жакшыртылган көрүнүш үчүн */
+    border-radius: 5px;
     text-align: center;
   }
-  
+
   .carousel-caption h3,
   .carousel-caption p {
     margin: 0;
   }
-  
+}
