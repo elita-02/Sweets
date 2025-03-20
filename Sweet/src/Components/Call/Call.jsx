@@ -3,9 +3,9 @@ import "./Call.scss"
 import call from "../../assets/svg/call.svg"
 function Call() {
   return (
-      <div className='cal'>
+      <div className='call'>
                    <button>
-                          <img src={email} alt="" />
+                          <img src={call} alt="" />
                           По номеру телефона
                   </button>
                 </div>
