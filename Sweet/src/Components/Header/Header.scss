@@ -31,7 +31,9 @@
             transform: scale(1.1) rotate(360deg);  
             transition: 0.3s;
             opacity: 0.8;
-            text-decoration: underline wavy rgb(220, 203, 21), overline; 
+            text-decoration: underline wavy  rgb(220, 203, 21);
+            text-decoration-line:overline ;
+            border-bottom: 3px solid;
             border-bottom: 3px solid;
             border-image: linear-gradient(to right, red, yellow) 1;
         }
